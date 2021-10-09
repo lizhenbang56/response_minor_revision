@@ -44,6 +44,8 @@ We would like to express our heartfelt gratitude to you and the reviewers for th
 
 (1) We have carefully considered and followed all the comments and suggestions related to the clarity of the writing, and made the new material a thoroughly revised manuscript. Specifically, we have performed a thorough spell and grammar check to increase the readability of our manuscript. In addition, we have placed the table XVI before references.
 
+(2) We have re-organized the forms and contents in experiments. Specifically, we have removed the redundant experimental results of FAN in Section IV.D. We have also condensed the first paragraph of Section IV.G.
+
 We hope that our revised manuscript is now appropriate for publication in IEEE Transactions on Circuits and Systems for Video Technology. Specific responses to all the comments of each reviewer are included in the rest of this document and highlighted using bold font after the comments of each reviewer for the convenience of cross-reference. To make the changes easier to identify where necessary, we also have underlined most of the revised parts in the manuscript and provide an underlined version for the convenience of second review.\\[10pt]
 \indent We are looking forward to your reply.\\[10pt]
 \noindent Yours sincerely,\\
@@ -110,9 +112,15 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textit{There are some minor comments: 1. Eq.3 and Eq.5 seem to be the same.}
 
+\textbf{Sorry that in our previous manuscript we did not clarify the difference between Eq. (3) and Eq. (5). In Eq. (5), $p_\textbf{x}$ is a small (i.e, $64\times64$) patch added into the search image to achieve targeted attacks, while in Eq. (3), the perturbation $\delta_\textbf{x}$ is added to the whole search image $\textbf{x}$ and limited to untargeted attacks. We have analysed the difference between Eq. (3) and Eq. (5) in Section III.A of the revised manuscript. For your convenience of cross checking, the new added text is shown as follows:} \uline{$A_{\text{add}}$ is a patch application operator which adds a small patch into the search image according to $b^{fake}_{\textbf{x}}$. This also departs from Eq. (3) in that the universal adversarial perturbation $\delta_\textbf{x}$ is added to the whole search image $\textbf{x}$ and limited to untargeted attacks.}
+
 \textit{2. The section of experiments is a little tedious and some analyses in Sec. IV-D and Sec. IV-G are duplicated. The reviewer suggests that the authors re-organize these forms and contents in experiments.}
 
+\textbf{Thanks for the good comment. As suggested, we have re-organized the forms and contents in experiments. Specifically, we have removed the redundant experimental results of FAN in Section IV.D as follows:} \uline{Moreover, our universal perturbations achieve better targeted attack performance than FAN on OTB2015 as shown in Section IV.G.} \textbf{We have also condensed the first paragraph of Section IV.G as follows:} \uline{We firstly compare our attack method with the recent state-of-the-art attack methods on OTB2015, including CSA [55], RTAA [54], SPARK [7], FAN [6] and TTP [5]. Please refer to Sec. II-C for more details about these methods. The untargeted attack results in Table XIV show that our targeted attack method can also achieve superior untargeted attack performance as well as the RTAA, SPARK and TTP attack methods and even better results than CSA and FAN. What’s more, the targeted attack results in Table XV also show that our achieved precision score with respect to the \textit{fake trajectory} is up to 0.795, which is significantly better than FAN and TTP. This further demonstrates our superior targeted attack performance when using the adversarial patch for attacks.}
+
 \textit{3. Please check the format of the references. Some of them are incompatible with others.}
+
+\textbf{Thanks for the good comment. As suggested, we have checked the format of the references.}
 
 \textit{4. The reviewer suggests a thorough spell and grammar check that would increase the readability of this MS.}
 
