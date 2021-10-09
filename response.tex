@@ -27,6 +27,8 @@
 \newtheorem{example}{Example}
 \newtheorem{theorem}{Theorem}
 
+\hyphenpenalty=1
+\tolerance=10000
 
 \begin{document}
 \setstretch{1.5}
@@ -40,7 +42,7 @@
 
 We would like to express our heartfelt gratitude to you and the reviewers for the insightful and helpful comments. When we revised the paper, we carefully considered and followed all the comments and suggestions provided by you and the reviewers. To summarize, we have made the following revisions:
 
-(1) We have carefully considered and followed all the comments and suggestions related to the clarity of the writing, and made the new material a thoroughly revised manuscript. Specifically, several state-of-the-art anchor-free trackers have been discussed in Section II. The algorithm for the attack process has been added in Section III.C. We have explained in detail the perturbation update process in offline training. We have also added the advantages and limitations of the proposed method after experimental analysis and the future work to the conclusion. The descriptions of figures and tables have been rewritten, and the format of all the tables has been unified.
+(1) We have carefully considered and followed all the comments and suggestions related to the clarity of the writing, and made the new material a thoroughly revised manuscript. Specifically, we have performed a thorough spell and grammar check to increase the readability of our manuscript. In addition, we have placed the table XVI before references.
 
 We hope that our revised manuscript is now appropriate for publication in IEEE Transactions on Circuits and Systems for Video Technology. Specific responses to all the comments of each reviewer are included in the rest of this document and highlighted using bold font after the comments of each reviewer for the convenience of cross-reference. To make the changes easier to identify where necessary, we also have underlined most of the revised parts in the manuscript and provide an underlined version for the convenience of second review.\\[10pt]
 \indent We are looking forward to your reply.\\[10pt]
@@ -120,6 +122,19 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textit{- On page 12, 'my result in' is a typo in line 46.}
 
+\textbf{Thanks for the good comment. As suggested, we have performed a thorough spell and grammar check to increase the readability of our manuscript. Specifically, we have replaced ``Thus it is necessary to perturb the template image to cooling down hot regions where the real target exists and increasing the responses at the position of the \textit{fake target}.'' with} ``\uline{Thus it is necessary to perturb the template image to cool down hot regions where the real target exists and increase the responses at the position of the \textit{fake target}.}''
+\textbf{in Section III.A of the revised manuscript.}
+
+\textbf{We have replaced ``FAN generates independent perturbation for each frame, while our perturbations are universal.'' with} ``\uline{FAN independently generates different perturbations for each frame, while our perturbations are universal.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
+
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+
+\textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``Our perturbations are trained using datasets with groundtruth box information.'' with} ``\uline{Our perturbations are trained using datasets with ground-truth box information.}'' \textbf{in Section IV.E of the revised manuscript.}
+
 %%%%%%%%%%%%%%%%% 审稿人 3 %%%%%%%%%%%%%%%%%
 \clearpage
 \newpage
@@ -150,6 +165,19 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textit{It would be much better to place table XVI before references.}
 
+\textbf{Thanks for the good comment. As suggested, we have placed the table XVI before references. In addition, we have performed a thorough spell and grammar check to increase the readability of our manuscript. Specifically, we have replaced ``Thus it is necessary to perturb the template image to cooling down hot regions where the real target exists and increasing the responses at the position of the \textit{fake target}.'' with} ``\uline{Thus it is necessary to perturb the template image to cool down hot regions where the real target exists and increase the responses at the position of the \textit{fake target}.}''
+\textbf{in Section III.A of the revised manuscript.}
+
+\textbf{We have replaced ``FAN generates independent perturbation for each frame, while our perturbations are universal.'' with} ``\uline{FAN independently generates different perturbations for each frame, while our perturbations are universal.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
+
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+
+\textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``Our perturbations are trained using datasets with groundtruth box information.'' with} ``\uline{Our perturbations are trained using datasets with ground-truth box information.}'' \textbf{in Section IV.E of the revised manuscript.}
+
 %%%%%%%%%%%%%%%%% 审稿人 4 %%%%%%%%%%%%%%%%%
 \clearpage
 \newpage
@@ -174,7 +202,18 @@ In addition, point-to-point responses to your comments are given below and highl
 \newpage
 \textit{The authors have addressed my comments. The paper is ready for publication.}
 
-\textbf{Many thanks for your positive comments on the strength of our paper and the novelty of the proposed attack method.}
+\textbf{Many thanks for your positive comments on the strength of our paper and the novelty of the proposed attack method. In addition, we have performed a thorough spell and grammar check to increase the readability of our manuscript. Specifically, we have replaced ``Thus it is necessary to perturb the template image to cooling down hot regions where the real target exists and increasing the responses at the position of the \textit{fake target}.'' with} ``\uline{Thus it is necessary to perturb the template image to cool down hot regions where the real target exists and increase the responses at the position of the \textit{fake target}.}''
+\textbf{in Section III.A of the revised manuscript.}
+
+\textbf{We have replaced ``FAN generates independent perturbation for each frame, while our perturbations are universal.'' with} ``\uline{FAN independently generates different perturbations for each frame, while our perturbations are universal.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
+
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+
+\textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``Our perturbations are trained using datasets with groundtruth box information.'' with} ``\uline{Our perturbations are trained using datasets with ground-truth box information.}'' \textbf{in Section IV.E of the revised manuscript.}
 
 \end{document}
 
