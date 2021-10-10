@@ -83,7 +83,18 @@ In addition, point-to-point responses to your comments are given below and highl
 \newpage
 \textit{good work, valued to be accepted as is.}
 
-\textbf{Many thanks for your positive comments on the strength of our paper and the novelty of the proposed attack method.}
+\textbf{Many thanks for your positive comments on the strength of our paper and the novelty of the proposed attack method. In addition, we have performed a thorough spell and grammar check to increase the readability of our manuscript. Specifically, we have replaced ``Thus it is necessary to perturb the template image to cooling down hot regions where the real target exists and increasing the responses at the position of the \textit{fake target}.'' with} ``\uline{Thus it is necessary to perturb the template image to cool down hot regions where the real target exists and increase the responses at the position of the \textit{fake target}.}''
+\textbf{in Section III.A of the revised manuscript.}
+
+\textbf{We have replaced ``FAN generates independent perturbation for each frame, while our perturbations are universal.'' with} ``\uline{FAN independently generates different perturbations for each frame, while our perturbations are universal.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
+
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+
+\textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
+
+\textbf{We have replaced ``Our perturbations are trained using datasets with groundtruth box information.'' with} ``\uline{Our perturbations are trained using datasets with ground-truth box information.}'' \textbf{in Section IV.E of the revised manuscript.}
 
 %%%%%%%%%%%%%%%%% 审稿人 2 %%%%%%%%%%%%%%%%%
 \newpage
@@ -112,7 +123,9 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textit{There are some minor comments: 1. Eq.3 and Eq.5 seem to be the same.}
 
-\textbf{Sorry that in our previous manuscript we did not clarify the difference between Eq. (3) and Eq. (5). In Eq. (5), $p_\textbf{x}$ is a small (i.e, $64\times64$) patch added into the search image to achieve targeted attacks, while in Eq. (3), the perturbation $\delta_\textbf{x}$ is added to the whole search image $\textbf{x}$ and limited to untargeted attacks. We have analysed the difference between Eq. (3) and Eq. (5) in Section III.A of the revised manuscript. For your convenience of cross checking, the new added text is shown as follows:} \uline{$A_{\text{add}}$ is a patch application operator which adds a small patch into the search image according to $b^{fake}_{\textbf{x}}$. This also departs from Eq. (3) in that the universal adversarial perturbation $\delta_\textbf{x}$ is added to the whole search image $\textbf{x}$ and limited to untargeted attacks.}
+\textbf{Sorry that in our previous manuscript we did not clarify the difference between Eq. (3) and Eq. (5). In Eq. (5), $p_\textbf{x}$ is a small (i.e, $64\times64$) patch added into the search image to achieve targeted attacks, while in Eq. (3), the perturbation $\delta_\textbf{x}$ is added to the whole search image $\textbf{x}$ and limited to untargeted attacks. We have analysed the difference between Eq. (3) and Eq. (5) in Section III.A of the revised manuscript. For your convenience of cross checking, the new added text is shown as follows:}
+
+\uline{$A_{\text{add}}$ is a patch application operator which adds a small patch into the search image according to $b^{fake}_{\textbf{x}}$. This also departs from Eq. (3) in that the universal adversarial perturbation $\delta_\textbf{x}$ is added to the whole search image $\textbf{x}$ and limited to untargeted attacks.}
 
 \textit{2. The section of experiments is a little tedious and some analyses in Sec. IV-D and Sec. IV-G are duplicated. The reviewer suggests that the authors re-organize these forms and contents in experiments.}
 
@@ -137,7 +150,7 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
 
-\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
 
 \textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
 
@@ -180,7 +193,7 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
 
-\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
 
 \textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
 
@@ -217,7 +230,7 @@ In addition, point-to-point responses to your comments are given below and highl
 
 \textbf{We have replaced ``The main limitation of our work is that the translucent perturbations my result in suspicious attacks.'' with} ``\uline{The main limitation of our work is that the translucent perturbations may result in suspicious attacks}'' \textbf{in Section IV.G of the revised manuscript.}
 
-\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
+\textbf{We have replaced ``Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advance the research in this area by exploring various online update strategies.'' with} ``\uline{Online learning has play an important role in correlation filter-based tracking, and the recent works (e.g., [17], [18], [19]) have largely advanced the research in this area by exploring various online update strategies.}'' \textbf{in Section II.A of the revised manuscript.}
 
 \textbf{We have replaced ``Our method adds a \textit{small} universal patch to the search image to perform targeted attacks, which is is as translucent as in Baseline-1.'' with} ``\uline{Our method adds a \textit{small} universal patch to the search images to perform targeted attacks, which is as translucent as in Baseline-1.}'' \textbf{in Section IV.D of the revised manuscript.}
 
